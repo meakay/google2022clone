@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.tr{
+    
+    padding: 2px;
+    display: block;
+}
+.nav-div{
+    height: min-content;
+    width: 100%;
+    z-index: 1;
+	position: fixed;
+    top: 0;
+}
+.nav-bar{
+    float: right !important ;
+    border-collapse: separate;
+    border-spacing: 13px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.profile{
+    border-radius: 100%;
+}
+.searchbar{
+    width: 480px;
+    height: 45px;
+    border-radius: 70px;
+    border: 1px solid #d3d3d3;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.sec{
+    position: relative;
+    width: max-content;
+}
+.searchicon{
+    position: absolute;
+    left: 11.5px;
+    top: 15px;
+}
+.micicon{
+    position: absolute;
+    right: 11.5px;
+    top: 15px;
+}
+.ana{
+    margin-top: 22vh;
+}
+.button{
+    padding: 10px 12px;
+    border: 1px solid #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    height: 36px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.searchbar:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.footer{
+    height: min-content;
+    width: 100%;
+    z-index: 1;
+	position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+}
+.footer-nav{
+    float: left;
+    margin: 5px;
+}
+.footer-nav2{
+    float: right;
+    margin: 5px;
+}
+.searchbar:focus{
+    outline: none;
+}
